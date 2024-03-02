@@ -1,0 +1,65 @@
+[
+  {
+    "id": 0,
+    "name": "Lisa",
+    "age": 32,
+    "occupation": "Retail marketing manager",
+    "interests": [],
+    "distastes": [],
+    "description": [
+      "Lisa, een marketeer met een druk schema, streeft ernaar de effectiviteit van haar online campagnes te meten en te verbeteren om meer klanten te trekken, de conversie te verhogen en klantenloyaliteit te versterken. Geconfronteerd met de uitdagingen van beperkte tijd voor data-analyse, een gebrek aan duidelijk overzicht van campagneresultaten, en onzekerheid over het interpreteren en toepassen van data, voelt Sofia zich overweldigd.",
+      "Haar noodzaak ligt in een eenvoudige, gebruiksvriendelijke tool die diepgaande inzichten biedt in de prestaties van haar campagnes. Een tool die niet alleen de effectiviteit van elke campagne duidelijk maakt, maar haar ook gidst naar het bereiken van de juiste doelgroep met gerichte suggesties voor optimalisatie. Bovendien heeft Sofia behoefte aan een systeem dat heldere, deelbare rapportages genereert, zodat ze de voortgang en successen kan communiceren met haar team en leidinggevenden. Met een dergelijke oplossing kan Sofia niet alleen haar online campagnes verfijnen voor betere prestaties maar ook haar marketingstrategieën effectiever inzetten voor het bereiken van haar bedrijfsdoelen."
+    ],
+    "dataset": "https://www.kaggle.com/datasets/zeesolver/consumer-behavior-and-shopping-habits-dataset",
+    "dataset_name": "Consumer Behavior and Shopping Habits",
+    "dataset_description": "The Consumer Behavior and Shopping Habits Dataset provides a detailed overview of consumer preferences and purchasing behaviors. It includes demographic information, purchase history, product preferences, and preferred shopping channels (online or offline). This dataset is essential for businesses aiming to tailor their strategies to meet customer needs and enhance their shopping experience, ultimately driving sales and loyalty."
+  },
+
+  {
+    "id": 1,
+    "name": "Tom",
+    "age": 28,
+    "occupation": "HR adviseur",
+    "interests": [],
+    "distastes": [],
+    "description": [
+      "Tom, een gedreven manager in de gezondheidszorg, staat voor de uitdaging om de tevredenheid, betrokkenheid en ontwikkeling van zijn medewerkers te monitoren en te stimuleren. Met als doel het verloop en verzuim te verminderen en tegelijkertijd de motivatie, productiviteit en uiteindelijk de kwaliteit van de zorg te verhogen, navigeert Tom door een complex landschap van diverse taken en uiteenlopende medewerkersprofielen. Een van zijn grootste struikelblokken is het ontbreken van een gestructureerde methode om feedback effectief te verzamelen en te analyseren, wat essentieel is voor het maken van geïnformeerde beslissingen.",
+      "Wat Tom nodig heeft, is een geïntegreerde en interactieve tool die niet alleen een duidelijk beeld geeft van de stemming, het gedrag en de prestaties van zijn teamleden, maar hem ook ondersteunt in het stellen van de juiste vragen en het implementeren van gerichte verbeteracties. Deze tool zou in staat moeten zijn om gepersonaliseerde rapportages te genereren die Tom kan gebruiken voor zowel evaluatie als het vormgeven van toekomstig beleid. Met een dergelijke oplossing kan Tom proactief de werkomgeving en het welzijn van zijn medewerkers verbeteren, leidend tot een sterker, meer gemotiveerd team en een hogere kwaliteit van zorg."
+    ],
+    "dataset": "https://www.kaggle.com/datasets/rhuebner/human-resources-data-set",
+    "dataset_name": "Human Resources",
+    "dataset_description": "HR data can be hard to come by, and HR professionals generally lag behind with respect to analytics and data visualization competency. Thus, Dr. Carla Patalano and I set out to create our own HR-related dataset, which is used in one of our graduate MSHRM courses called HR Metrics and Analytics, at New England College of Business. We created this data set ourselves. We use the data set to teach HR students how to use and analyze the data in Tableau Desktop - a data visualization tool that's easy to learn."
+  },
+
+  {
+    "id": 2,
+    "name": "Eva",
+    "age": 35,
+    "occupation": "Risicoanalist",
+    "interests": [],
+    "distastes": [],
+    "description": [
+      "Eva, een vooruitstrevende bankmanager, staat voor de complexe uitdaging om de financiële risico's en regelgeving van haar klanten en producten te beoordelen en te beheren. Haar doelen zijn ambitieus: de financiële stabiliteit en reputatie van haar bank versterken, klanttevredenheid verhogen, en de concurrentiepositie uitbreiden. Echter, Eva worstelt met onzekere en dynamische marktomstandigheden en het gebrek aan een duidelijk pad voor risico-identificatie en -mitigatie, evenals het effectief modelleren en communiceren van data.",
+      "De oplossing voor Eva's uitdagingen ligt in een geavanceerde tool die inzicht biedt in de financiële situatie en het risicoprofiel van klanten en producten. Zo'n tool zou haar niet alleen helpen bij het verzamelen van de juiste data maar ook aanbevelingen doen voor risicomanagement, terwijl het tegelijkertijd zorgt voor de nodige rapportages voor besluitvorming. Met deze aanpak kan Eva niet alleen de risico's beheren maar ook strategische kansen grijpen om de groei en innovatie van haar bank te stimuleren."
+    ],
+    "dataset": "https://www.kaggle.com/datasets/nanditapore/credit-risk-analysis",
+    "dataset_name": "Credit Risk Analysis",
+    "dataset_description": "This dataset provides essential information about loan applicants and their characteristics. Your task is to develop predictive models to determine the likelihood of loan default based on these simplified features."
+  },
+
+  {
+    "id": 3,
+    "name": "Jeroen",
+    "age": 42,
+    "occupation": "Docent",
+    "interests": [],
+    "distastes": [],
+    "description": [
+      "Als een toegewijde leraar geconfronteerd met de uitdaging om de leerresultaten van zijn leerlingen te verbeteren, zoekt Jeroen naar manieren om inzicht te krijgen in hun voortgang en motivatie, ondanks zijn beperkte tijd voor individuele begeleiding en feedback. Het ontbreken van een duidelijk overzicht van de sterke en zwakke punten van elke leerling maakt het moeilijk om hun ontwikkeling door het schooljaar heen te volgen en de lessen aan te passen aan hun diverse niveaus en leerstijlen.",
+      "Jeroen heeft behoefte aan een innovatieve tool die de leerdata van de leerlingen kan verzamelen, analyseren en visualiseren, waardoor hij een helder beeld krijgt van de prestaties van elke leerling op verschillende onderwerpen, vaardigheden, en toetsen. Belangrijker nog, hij wil inzicht krijgen in hun motivatie en betrokkenheid bij de lesstof. Deze informatie is cruciaal om gepersonaliseerd onderwijs te bieden, afgestemd op de unieke behoeften en potentieel van elke leerling, hen aan te moedigen hun beste zelf te bereiken en zo de algehele leerervaring te verbeteren."
+    ],
+    "dataset": "https://www.kaggle.com/datasets/thedevastator/medical-student-mental-health/data?select=Data+Carrard+et+al.+2022+MedTeach.csv",
+    "dataset_name": "Medical Student Mental Health",
+    "dataset_description": "This dataset explores medical students' empathy, mental health, and burnout in Switzerland. It compiles important demographic information as well as self-reported data and results from psychological tests to give a comprehensive picture of the mental states of students in the medical field. Through this research, we hope to gain a better understanding of how being a medical student can affect health and wellbeing. By looking at the individual factors that may contribute to different outcomes, we can work towards improving educational systems for the benefit of both students and their eventual patients"
+  }
+]
