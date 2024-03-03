@@ -1,19 +1,15 @@
 import QRCode from "react-qr-code";
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useCallback } from "react";
 import { useSpeedDating } from "../providers/speedDatingProvider";
 
 function DatasetQrCodeCard({ datasetUrl }) {
   const { showModal, setShowModal } = useSpeedDating();
   const cardRef = useRef();
-  const handleClose = () => {
+  const handleClose = useCallback(() => {
     setShowModal(false);
-  };
+  }, [setShowModal]);
 
   useEffect(() => {
-    const handleClose = () => {
-      setShowModal(false);
-    };
-
     const handleKeyDown = (event) => {
       if (event.key === "Escape") {
         handleClose();
@@ -25,15 +21,10 @@ function DatasetQrCodeCard({ datasetUrl }) {
 
     // Remove event listener on cleanup
     return () => document.removeEventListener("keydown", handleKeyDown);
-  }, []);
+  }, [handleClose]); // Add handleClose to the dependencies array
 
   useEffect(() => {
     const handleClickOutside = (event) => {
-      // Check if it's a left click
-      if (event.button !== 0) {
-        return;
-      }
-
       if (cardRef.current && !cardRef.current.contains(event.target)) {
         handleClose();
       }
@@ -44,7 +35,7 @@ function DatasetQrCodeCard({ datasetUrl }) {
 
     // Remove event listener on cleanup
     return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, []);
+  }, [handleClose]); // handleClose is now memoized
 
   return showModal ? (
     <div className='fixed inset-0 z-50 flex items-center justify-center'>
