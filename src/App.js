@@ -18,15 +18,14 @@ function App() {
                   </Link>
                 </div>
               </div>
-              <div className='hidden md:block'>
-                <div className='flex items-baseline ml-10 space-x-4'>
-                  <Link
-                    to='/workshops'
-                    className='px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white'
-                  >
-                    Workshops
-                  </Link>
-                </div>
+
+              <div className='flex items-baseline ml-10 space-x-4'>
+                <Link
+                  to='/workshops'
+                  className='px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white'
+                >
+                  Workshops
+                </Link>
               </div>
             </div>
           </div>
