@@ -7,11 +7,9 @@ import { SpeedDatingProvider } from "./providers/speedDatingProvider";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <SpeedDatingProvider>
-      <App />
-    </SpeedDatingProvider>
-  </React.StrictMode>
+  <SpeedDatingProvider>
+    <App />
+  </SpeedDatingProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function

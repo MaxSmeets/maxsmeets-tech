@@ -5,12 +5,15 @@ import { useSpeedDating } from "../providers/speedDatingProvider";
 function DatasetQrCodeCard({ datasetUrl }) {
   const { showModal, setShowModal } = useSpeedDating();
   const cardRef = useRef();
-
   const handleClose = () => {
     setShowModal(false);
   };
 
   useEffect(() => {
+    const handleClose = () => {
+      setShowModal(false);
+    };
+
     const handleKeyDown = (event) => {
       if (event.key === "Escape") {
         handleClose();
