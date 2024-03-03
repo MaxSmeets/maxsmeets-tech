@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d51fe704.css",
+    "main.js": "/static/js/main.ee4b4de6.js",
+    "static/js/453.0eb57ce4.chunk.js": "/static/js/453.0eb57ce4.chunk.js",
+    "static/media/speedDating.webp": "/static/media/speedDating.47143e22fd683e14a3ea.webp",
+    "static/media/comingSoon.webp": "/static/media/comingSoon.e900c9fc759a1b902127.webp",
+    "static/media/Jeroen.webp": "/static/media/Jeroen.144d2d8e0e8eeb3f169b.webp",
+    "static/media/Tom.webp": "/static/media/Tom.4afbc9c4335f791cf845.webp",
+    "static/media/Karel.webp": "/static/media/Karel.496b0ffcb50c11eaed80.webp",
+    "static/media/Lisa.webp": "/static/media/Lisa.2b43c719d8e1505d1458.webp",
+    "static/media/Sandra.webp": "/static/media/Sandra.0cc11c14fd71c33f3ba7.webp",
+    "static/media/Eva.webp": "/static/media/Eva.6a886157cb40244afc83.webp",
+    "index.html": "/index.html",
+    "main.d51fe704.css.map": "/static/css/main.d51fe704.css.map",
+    "main.ee4b4de6.js.map": "/static/js/main.ee4b4de6.js.map",
+    "453.0eb57ce4.chunk.js.map": "/static/js/453.0eb57ce4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d51fe704.css",
+    "static/js/main.ee4b4de6.js"
+  ]
+}
