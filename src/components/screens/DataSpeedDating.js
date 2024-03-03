@@ -29,7 +29,7 @@ function DataSpeedDating() {
   };
 
   return (
-    <div className='w-screen h-screen p-4'>
+    <div className='p-4'>
       {speedDatingData ? (
         <SpeeddatingCard
           name={speedDatingData.name}

@@ -11,7 +11,10 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/workshops' element={<Workshops />} />
-          <Route path='/dataspeeddating' element={<DataSpeedDating />} />
+          <Route
+            path='/workshops/dataspeeddating'
+            element={<DataSpeedDating />}
+          />
         </Routes>
       </Router>
     </div>

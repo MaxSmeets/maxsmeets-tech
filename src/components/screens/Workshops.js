@@ -1,6 +1,8 @@
 import React from "react";
 import Back from "../buttons/Back";
 import WorkshopCard from "../WorkshopCard";
+import { useRoutes } from "react-router-dom";
+import DataSpeedDating from "./DataSpeedDating";
 
 //workshop images
 import comingSoon from "../../assets/comingSoon.webp";
@@ -12,7 +14,7 @@ function Workshops() {
       <h1 className='mb-6 text-3xl'>Workshops</h1>
       <div className='flex flex-wrap w-full h-full justify-evenly'>
         <WorkshopCard
-          to='/dataspeeddating'
+          to='/workshops/dataspeeddating'
           name='Data Speed Dating'
           image={speedDating}
           description='An interactive workshop to practice data abstraction for visualisations.'

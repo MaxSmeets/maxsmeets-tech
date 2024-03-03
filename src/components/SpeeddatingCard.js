@@ -8,6 +8,8 @@ import Eva from "../assets/personas/Eva.webp";
 import Tom from "../assets/personas/Tom.webp";
 import Lisa from "../assets/personas/Lisa.webp";
 import Jeroen from "../assets/personas/Jeroen.webp";
+import Sandra from "../assets/personas/Sandra.webp";
+import Karel from "../assets/personas/Karel.webp";
 
 function SpeeddatingCard({
   name,
@@ -30,6 +32,8 @@ function SpeeddatingCard({
     Tom: Tom,
     Lisa: Lisa,
     Jeroen: Jeroen,
+    Sandra: Sandra,
+    Karel: Karel,
   };
 
   return (
@@ -44,8 +48,8 @@ function SpeeddatingCard({
             <p className='text-md'>{occupation}</p>
             <img
               src={personas[name]}
-              alt='Bob'
-              className='w-32 h-32 m-auto rounded-full md:w-40 md:h-40'
+              alt={name}
+              className='w-full h-full m-auto rounded-full'
             />
           </div>
           <div className='col-span-1 row-span-1 p-2 rounded-md bg-tertiary md:col-span-1'>
