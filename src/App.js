@@ -8,7 +8,7 @@ function App() {
   return (
     <div className='h-full max-h-full min-h-screen text-white bg-primary'>
       <Router>
-        <nav className='fixed top-0 left-0 w-screen h-16 bg-gray-800'>
+        <nav className='fixed top-0 left-0 z-50 w-screen h-16 bg-gray-800'>
           <div className='px-4 mx-auto max-w-7xl sm:px-6 lg:px-8'>
             <div className='flex items-center justify-between h-16'>
               <div className='flex items-center'>
