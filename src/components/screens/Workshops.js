@@ -1,8 +1,6 @@
 import React from "react";
 import Back from "../buttons/Back";
 import WorkshopCard from "../WorkshopCard";
-import { useRoutes } from "react-router-dom";
-import DataSpeedDating from "./DataSpeedDating";
 
 //workshop images
 import comingSoon from "../../assets/comingSoon.webp";
