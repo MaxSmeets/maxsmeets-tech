@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Workshops from "./components/screens/Workshops";
 import Home from "./components/screens/Home";
 import DataSpeedDating from "./components/screens/DataSpeedDating";
+import logo from "./assets/logo.png";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
               <div className='flex items-center'>
                 <div className='flex-shrink-0'>
                   <Link to='/' className='text-white'>
-                    Home
+                    <img className='h-8' src={logo} alt='logo' />
                   </Link>
                 </div>
               </div>
