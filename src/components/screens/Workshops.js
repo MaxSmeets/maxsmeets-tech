@@ -8,8 +8,7 @@ import speedDating from "../../assets/speedDating.webp";
 
 function Workshops() {
   return (
-    <div className='min-h-screen p-4'>
-      <h1 className='mb-6 text-3xl'>Workshops</h1>
+    <div className='min-h-screen p-4 my-auto'>
       <div className='flex flex-wrap w-full h-full justify-evenly'>
         <WorkshopCard
           to='/workshops/dataspeeddating'

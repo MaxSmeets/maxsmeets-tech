@@ -49,7 +49,7 @@ function SpeeddatingCard({
             <img
               src={personas[name]}
               alt={name}
-              className='w-full h-full m-auto rounded-full'
+              className='m-auto rounded-full w-fit h-fit'
             />
           </div>
           <div className='col-span-1 row-span-1 p-2 rounded-md bg-tertiary md:col-span-1'>
