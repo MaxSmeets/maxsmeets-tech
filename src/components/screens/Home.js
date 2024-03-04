@@ -1,5 +1,6 @@
 import React from "react";
 import HomeNewsCard from "../HomeNewsCard";
+import SkillsCard from "../SkillsCard";
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
             <HomeNewsCard title={"Coming soon.."} description={""} />
           </div>
         </div>
+        <SkillsCard />
       </div>
     </div>
   );

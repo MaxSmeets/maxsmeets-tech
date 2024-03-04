@@ -1,0 +1,56 @@
+[
+  {
+    "soft_skills": [
+      {
+        "id": 1,
+        "name": "Communication",
+        "description": "The ability to communicate effectively with others, both verbally and in writing.",
+        "value": 70
+      },
+      {
+        "id": 2,
+        "name": "Problem Solving & Critical Thinking",
+        "description": "The ability to think critically and solve problems.",
+        "value": 80
+      },
+      {
+        "id": 3,
+        "name": "Teamwork",
+        "description": "The ability to work effectively with others.",
+        "value": 90
+      },
+      {
+        "id": 4,
+        "name": "Adaptability",
+        "description": "The ability to adapt to new situations and environments.",
+        "value": 60
+      }
+    ],
+    "tech_skills": [
+      {
+        "id": 1,
+        "name": "HTML",
+        "description": "The ability to write HTML code.",
+        "value": 80
+      },
+      {
+        "id": 2,
+        "name": "CSS",
+        "description": "The ability to write CSS code.",
+        "value": 70
+      },
+      {
+        "id": 3,
+        "name": "JavaScript",
+        "description": "The ability to write JavaScript code.",
+        "value": 60
+      },
+      {
+        "id": 4,
+        "name": "React",
+        "description": "The ability to write React code.",
+        "value": 50
+      }
+    ]
+  }
+]
