@@ -1,53 +1,22 @@
 import React from "react";
+import HomeNewsCard from "../HomeNewsCard";
 
 function Home() {
   return (
     <div className='min-h-screen min-w-screen'>
       <div className='px-4 mx-auto max-w-7xl sm:px-6 lg:px-8'>
         <div className='py-8'>
-          <h1 className='text-4xl font-bold'>Home</h1>
-          <p className='mt-2 text-lg text-gray-200'>Welcome to the homepage!</p>
+          <h1 className='text-3xl font-bold'>News:</h1>
           <div className='grid grid-cols-1 gap-6 mt-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
-            <div className='overflow-hidden rounded-lg shadow bg-tertiary'>
-              <div className='p-5'>
-                <div className='h-40 bg-secondary'></div>
-                <div className='mt-4'>
-                  <div className='h-4 bg-secondary'></div>
-                  <div className='h-4 mt-2 bg-secondary'></div>
-                  <div className='h-4 mt-2 bg-secondary'></div>
-                </div>
-              </div>
-            </div>
-            <div className='overflow-hidden rounded-lg shadow bg-tertiary'>
-              <div className='p-5'>
-                <div className='h-40 bg-secondary'></div>
-                <div className='mt-4'>
-                  <div className='h-4 bg-secondary'></div>
-                  <div className='h-4 mt-2 bg-secondary'></div>
-                  <div className='h-4 mt-2 bg-secondary'></div>
-                </div>
-              </div>
-            </div>
-            <div className='overflow-hidden rounded-lg shadow bg-tertiary'>
-              <div className='p-5'>
-                <div className='h-40 bg-secondary'></div>
-                <div className='mt-4'>
-                  <div className='h-4 bg-secondary'></div>
-                  <div className='h-4 mt-2 bg-secondary'></div>
-                  <div className='h-4 mt-2 bg-secondary'></div>
-                </div>
-              </div>
-            </div>
-            <div className='overflow-hidden rounded-lg shadow bg-tertiary'>
-              <div className='p-5'>
-                <div className='h-40 bg-secondary'></div>
-                <div className='mt-4'>
-                  <div className='h-4 bg-secondary'></div>
-                  <div className='h-4 mt-2 bg-secondary'></div>
-                  <div className='h-4 mt-2 bg-secondary'></div>
-                </div>
-              </div>
-            </div>
+            <HomeNewsCard
+              title={"New workshop!"}
+              description={
+                "Check out the new data abstraction workshop under the workshops section!"
+              }
+            />
+            <HomeNewsCard title={"Coming soon.."} description={""} />
+            <HomeNewsCard title={"Coming soon.."} description={""} />
+            <HomeNewsCard title={"Coming soon.."} description={""} />
           </div>
         </div>
       </div>
