@@ -39,9 +39,9 @@ function SpeeddatingCard({
   return (
     <div>
       <DatasetQrCodeCard datasetUrl={datasetUrl} />
-      <div className={`w-full md:w-4/5 p-4 mx-auto rounded-lg bg-secondary`}>
+      <div className={`w-full md:w-4/5 p-4 mx-auto rounded-lg bg-tertiary`}>
         <div className='grid grid-cols-1 grid-rows-4 gap-4 md:grid-cols-4 md:grid-rows-2'>
-          <div className='flex flex-col col-span-1 row-span-1 p-3 text-center rounded-md bg-tertiary md:col-span-1 md:row-span-1'>
+          <div className='flex flex-col col-span-1 row-span-1 p-3 text-center rounded-md bg-secondary md:col-span-1 md:row-span-1'>
             <h2 className='text-2xl'>
               {name}, {age}
             </h2>
@@ -52,7 +52,7 @@ function SpeeddatingCard({
               className='m-auto rounded-full w-fit h-fit'
             />
           </div>
-          <div className='col-span-1 row-span-1 p-2 rounded-md bg-tertiary md:col-span-1'>
+          <div className='col-span-1 row-span-1 p-2 rounded-md bg-secondary md:col-span-1'>
             <h2 className='text-xl'>Houdt van:</h2>
             <ul>
               {interests.map((interest, index) => (
@@ -67,7 +67,7 @@ function SpeeddatingCard({
               ))}
             </ul>
           </div>
-          <div className='flex flex-col justify-between col-span-1 row-span-1 p-4 rounded-md bg-tertiary md:col-span-2'>
+          <div className='flex flex-col justify-between col-span-1 row-span-1 p-4 rounded-md bg-secondary md:col-span-2'>
             <div>
               <h2 className='text-xl'>Dataset: {datasetName}</h2>
               <p>{datasetDescription}</p>
@@ -95,7 +95,7 @@ function SpeeddatingCard({
               </button>
             </div>
           </div>
-          <div className='col-span-1 row-span-1 p-2 rounded-md bg-tertiary md:col-span-4'>
+          <div className='col-span-1 row-span-1 p-2 rounded-md bg-secondary md:col-span-4'>
             <h2 className='mb-2 text-xl'>Casus: </h2>
             {description.map((paragraph) => (
               <p className='mb-2'>{paragraph}</p>
