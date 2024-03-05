@@ -9,9 +9,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #014f86;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* Add this to your global CSS file */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #014f86;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a6f97;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2c7da0;
 }

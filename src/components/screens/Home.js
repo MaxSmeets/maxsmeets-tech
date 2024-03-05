@@ -1,10 +1,13 @@
 import React from "react";
 import HomeNewsCard from "../HomeNewsCard";
 import SkillsCard from "../SkillsCard";
+import HeroSection from "../HeroSection";
+import speedDating from "../../assets/speedDating.webp";
 
 function Home() {
   return (
     <div className='min-h-screen min-w-screen'>
+      <HeroSection />
       <div className='px-4 mx-auto max-w-7xl sm:px-6 lg:px-8'>
         <div className='py-8'>
           <h1 className='text-3xl font-bold'>News:</h1>
@@ -14,6 +17,8 @@ function Home() {
               description={
                 "Check out the new data abstraction workshop under the workshops section!"
               }
+              image={speedDating}
+              to='/workshops/dataspeeddating'
             />
             <HomeNewsCard title={"Coming soon.."} description={""} />
             <HomeNewsCard title={"Coming soon.."} description={""} />

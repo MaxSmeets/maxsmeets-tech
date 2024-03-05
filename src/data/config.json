@@ -51,6 +51,11 @@
         "description": "The ability to write React code.",
         "value": 50
       }
-    ]
+    ],
+    "hero_section": {
+      "name": "Max Smeets",
+      "date_of_birth": "1996-08-07",
+      "location": "Maastricht, The Netherlands"
+    }
   }
 ]
