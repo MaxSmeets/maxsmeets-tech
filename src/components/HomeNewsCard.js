@@ -7,7 +7,11 @@ function HomeNewsCard({ title, description, image, to }) {
     <div className='overflow-hidden rounded-lg shadow bg-tertiary hover:bg-secondary'>
       <div className='p-5'>
         <div className='h-40 overflow-hidden rounded-md bg-secondary'>
-          <img src={image} className='object-cover w-full h-full' />
+          <img
+            src={image}
+            alt='news item'
+            className='object-cover w-full h-full'
+          />
         </div>
         <div className='mt-4'>
           <div className='flex flex-row p-1 rounded-md bg-secondary'>
