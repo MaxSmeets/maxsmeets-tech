@@ -56,6 +56,41 @@
       "name": "Max Smeets",
       "date_of_birth": "1996-08-07",
       "location": "Maastricht, The Netherlands"
+    },
+    "about_me": {
+      "description": "I am a full-stack developer with a passion for building beautiful and functional web applications. I have experience with HTML, CSS, JavaScript, and React. I am a quick learner and a great team player. I am looking for a new opportunity to grow and develop my skills.",
+      "timeline": [
+        {
+          "id": 1,
+          "date": "2018-01-01",
+          "title": "Started learning HTML and CSS."
+        },
+        {
+          "id": 2,
+          "date": "2019-01-01",
+          "title": "Started learning JavaScript."
+        },
+        {
+          "id": 3,
+          "date": "2020-01-01",
+          "title": "Started learning React."
+        },
+        {
+          "id": 4,
+          "date": "2020-03-01",
+          "title": "Started Solidity"
+        },
+        {
+          "id": 5,
+          "date": "2020-05-01",
+          "title": "Started Haskell"
+        },
+        {
+          "id": 6,
+          "date": "2020-07-01",
+          "title": "Started learning Python."
+        }
+      ]
     }
   }
 ]

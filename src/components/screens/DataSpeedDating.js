@@ -62,7 +62,7 @@ function DataSpeedDating() {
             <Lottie options={defaultOptions} height={80} width={80} />
           </div>
           <button
-            className='p-5 mt-0 text-2xl font-bold border border-black rounded-md bg-secondary hover:bg-tertiary'
+            className='p-5 mt-0 text-2xl font-bold rounded-md bg-secondary hover:bg-tertiary'
             onClick={() => assignRandomCard()}
             onMouseEnter={() => setHover(true)}
             onMouseLeave={() => setHover(false)}

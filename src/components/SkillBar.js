@@ -19,7 +19,7 @@ function SkillBar({ id, name, value, description }) {
       <p className='text-sm font-semibold'>{hovering ? description : name}</p>
       <div className='w-full h-4 overflow-hidden bg-gray-200 rounded-full dark:bg-gray-700'>
         <div
-          className={`h-4 bg-green-600 hover:bg-green-400 rounded-full transition-all duration-500 ease-in-out ${
+          className={`h-4 bg-green-600 hover:bg-green-400 rounded-full transition-all duration-1000 ease-in-out ${
             loadAnimation ? "w-0" : ""
           }`}
           style={{ width: loadAnimation ? `${value}%` : "0%" }}

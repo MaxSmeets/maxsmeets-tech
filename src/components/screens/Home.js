@@ -1,6 +1,5 @@
 import React from "react";
 import HomeNewsCard from "../HomeNewsCard";
-import SkillsCard from "../SkillsCard";
 import HeroSection from "../HeroSection";
 import speedDating from "../../assets/speedDating.webp";
 
@@ -25,7 +24,6 @@ function Home() {
             <HomeNewsCard title={"Coming soon.."} description={""} />
           </div>
         </div>
-        <SkillsCard />
       </div>
     </div>
   );

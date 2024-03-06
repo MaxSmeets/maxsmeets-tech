@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Workshops from "./components/screens/Workshops";
 import Home from "./components/screens/Home";
 import DataSpeedDating from "./components/screens/DataSpeedDating";
+import AboutMe from "./components/screens/AboutMe";
 import logo from "./assets/logo.png";
 
 function App() {
@@ -34,7 +35,7 @@ function App() {
 
               <div className='flex items-baseline ml-10 space-x-4'>
                 <Link
-                  to='/workshops'
+                  to='/aboutme'
                   className='px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:bg-secondary hover:text-white'
                 >
                   About me
@@ -55,7 +56,7 @@ function App() {
             </div>
           </div>
         </nav>
-        <div className='mt-16'>
+        <div className='mt-16 overflow-y-visible'>
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/workshops' element={<Workshops />} />
@@ -63,6 +64,9 @@ function App() {
               path='/workshops/dataspeeddating'
               element={<DataSpeedDating />}
             />
+            <Route path='/aboutme' element={<AboutMe />} />
+            {/* If no route matches, redirect to home */}
+            <Route path='*' element={<Home />} />
           </Routes>
         </div>
       </Router>
